@@ -1,0 +1,107 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #addfa9;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #679464;
+    color: crimson;
+    letter-spacing: 2px;
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    border-radius: 10px;
+    background-color: rgb(96, 51, 138);
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background-color: #6AAA64;
+    color: white;
+    border-color: white;
+}
+
+.present {
+    background-color: #C9B458;
+    color: white;
+    border-color: white;
+}
+
+.absent {
+    background-color: #787C7E;
+    color: white;
+    border-color:white;
+}
+
+
+.keyboard-row {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key-tile {
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #787C7E;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key-tile:hover{
+    cursor: pointer;
+    background-color: #a9aeb1;
+}
+
+.enter-key-tile {
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #787C7E;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter-key-tile:hover{
+    cursor: pointer;
+    background-color: #a9aeb1;
+}
